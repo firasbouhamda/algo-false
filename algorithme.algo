@@ -1,0 +1,73 @@
+ALGORITHM Compare elements
+VAR
+    tab1,tab2: INTEGER;=0
+const
+tab1:=[1,3,4,6,7,8]
+tab2:=[2,3,6,8,10,12]
+BEGIN
+Write('giv a sum of number')
+    Read(tab1);
+    Write('giv a sum og number')
+    Read(tab2);
+    tab:=0
+   WHILE (j < tab1.length) DO
+       IF (tab[j] = elt) THEN    INTEGER+1
+        BREAK;
+
+END
+
+
+ALGORITHM hash
+VAR
+  
+   htab1 : HASH_TABLE<INTEGER,STRING>;
+     htab2 : HASH_TABLE<INTEGER,STRING>;
+
+BEGIN
+   htab : HASH_TABLE<INTEGER,STRING>;
+
+   htab1.insert(1);
+   htab1.insert(3);
+   htab1.insert(4);
+   htab1.insert(6);
+     htab1.insert(7);
+   htab1.insert(8);
+
+ htab2.insert(2);
+   htab2.insert(3);
+   htab2.insert(6);
+   htab2.insert(8);
+     htab2.insert(10);
+   htab2.insert(12);
+
+
+   Write(htab1);
+
+   htab.lookup(0); // TRUE
+   htab.lookup(5); // FALSE
+
+
+   htab1.get(0); // number
+
+
+   // duplicate key
+   htab1.insert(tab1);
+   htab2.insert(tab2);
+
+   htab2.get(3) 
+   // there is no duplicated key (after the execution this
+   // instruction will delete the first value, and replace it the second)
+
+   // duplicate value
+   htab1.insert( );
+   htab2.insert( );
+
+   // hash function
+   HASH_TABLE<STRING,CHAR>
+ 
+
+   FUNCTION hash_function(STRING str) : INTEGER
+   BEGIN
+       RETURN str.length;
+   END
+END
